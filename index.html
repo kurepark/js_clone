@@ -9,15 +9,6 @@
     </head>
     <body>
         <div id="bg"></div>
-        <form id="login-form" class="hidden">
-            <input
-                type="text"
-                maxlength="15"
-                placeholder="what is your name?"
-                required
-            />
-            <button type="submit" class="btn">log in</button>
-        </form>
         <div class="view">
             <h2 id="clock">
                 <span class="hours"></span>
@@ -26,6 +17,15 @@
                 <span class="dot">:</span>
                 <span class="seconds"></span>
             </h2>
+            <form id="login-form" class="hidden">
+                <input
+                    type="text"
+                    maxlength="15"
+                    placeholder="what is your name?"
+                    required
+                />
+                <button type="submit" class="btn">log in</button>
+            </form>
             <h1 id="greeting" class="hidden"></h1>
             <form id="todo-form">
                 <input type="text" placeholder="할일 만들기" />
